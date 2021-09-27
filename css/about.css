@@ -1,0 +1,33 @@
+main {
+    background-color: var(--white);
+    padding: 32px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.imgsobrenos{
+    width: 500px !important;
+    margin-left: 10px;
+}
+
+.psobrenos{
+    font-size: 22px;
+    color: var(--gray);
+}
+
+.h2sobrenos {
+    margin-left: 15px;
+    color: var(--gray);
+}
+
+.asobrenos, .afaq{
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.asobrenos:hover, .afaq:hover{
+    text-decoration: none;
+    color: gray;
+}
