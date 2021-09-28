@@ -39,6 +39,7 @@ header form .inputSearch:focus {
     transition: 0.3s all;
     box-shadow: 0 0 0 0;
     border: solid 1px var(--olive-green);
+    box-shadow: 0 0 0 0.25rem rgb(107 142 35 / 35%) !important;
     outline: 0;
 }
 
