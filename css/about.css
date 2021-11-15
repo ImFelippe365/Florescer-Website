@@ -31,3 +31,20 @@ a {
     text-decoration: none;
     color: gray;
 }
+
+.mainContainer {
+    display: flex;
+    
+}
+
+@media (max-width: 991px) {
+
+    .mainContainer {
+        flex-wrap: wrap;
+    }
+
+    .mainContainer img {
+        width: auto !important;
+        max-width: 300px;
+    }
+}
